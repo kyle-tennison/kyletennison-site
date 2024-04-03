@@ -193,7 +193,7 @@
 }
 @media screen and (max-width: 880px) {
   #project-list .left img {
-    idth: 160px;
+    width: 160px;
   }
 }
 @media screen and (max-width: 790px) {
