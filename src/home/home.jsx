@@ -16,6 +16,7 @@ import magnetite_img from "../assets/project-pictures/magnetite.png";
 import pyrite_img from "../assets/project-pictures/pyrite.png";
 import climber_img from "../assets/project-pictures/climber.jpg";
 import franklin_img from "../assets/project-pictures/franklin.png";
+import parsley_img from "../assets/project-pictures/parsley.png"
 
 export default function Home() {
   return (
@@ -133,6 +134,15 @@ export default function Home() {
             icon_text="Check it out on GitHub"
             link="https://github.com/kyle-tennison/franklin"
             date="December-Now 2023"
+          />
+          <ProjectCard
+            img={parsley_img}
+            title="Parsley"
+            text="An external post-post-processor to fix faulty machine code."
+            icon={github_icon}
+            icon_text="Check it out on GitHub"
+            link="https://github.com/kyle-tennison/parsley"
+            date="October-November 2023"
           />
           <ProjectCard
             img={climber_img}
