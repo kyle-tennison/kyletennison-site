@@ -1,5 +1,6 @@
 #home-page {
-  background-color: #EEEDEB;
+  background-color: #eeedeb;
+  min-width: 380px;
 }
 
 .banner {
@@ -36,7 +37,7 @@
   padding-bottom: 90px;
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
-  background-color: #76885B;
+  background-color: #76885b;
 }
 #about-me h1 {
   text-align: center;
@@ -58,22 +59,27 @@
   text-align: center;
   box-shadow: 2px 5px 5px 1px rgba(0, 0, 0, 0.2);
 }
-@media screen and (max-width: 900px) {
-  #about-me #selfie {
-    display: none;
-  }
-}
 #about-me .right {
   display: inline-block;
   font-size: 18px;
   line-height: 29px;
 }
 #about-me .right .flex-container {
+  margin: auto;
   padding-left: 20px;
   padding-right: 0px;
   justify-content: center;
 }
+@media screen and (max-width: 900px) {
+  #about-me #selfie {
+    display: none;
+  }
+  #about-me .right .flex-container {
+    padding-left: 0px;
+  }
+}
 #about-me .info-card {
+  position: relative;
   margin-top: 30px;
   width: 100%;
   display: flexbox;
@@ -105,7 +111,7 @@
   top: -60px;
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
-  background-color: #EEEDEB;
+  background-color: #eeedeb;
   color: #363636;
   padding-top: 60px;
   padding-bottom: 60px;
@@ -127,12 +133,12 @@
   flex-direction: column;
 }
 #project-list .project-card {
-  height: 200px;
+  min-height: 200px;
   display: flex;
   margin-top: 50px;
   overflow: hidden;
   border-radius: 15px;
-  background-color: #E0CCBE;
+  background-color: #e0ccbe;
   box-shadow: 2px 5px 5px 1px rgba(0, 0, 0, 0.2);
 }
 #project-list .project-card h2 {
@@ -146,6 +152,7 @@
   overflow: hidden;
   margin-left: 50px;
   margin-right: 50px;
+  margin-bottom: 80px;
 }
 #project-list .project-card .flex-container {
   width: 100%;
@@ -173,10 +180,16 @@
   margin: 0;
   line-height: 30px;
 }
+@media screen and (max-width: 420px) {
+  #project-list .project-card .icon-text-pair {
+    margin-left: 20px;
+  }
+}
 #project-list .project-card #date {
   position: absolute;
   right: 0px;
   bottom: 30px;
+  margin-bottom: 0px;
   font-style: italic;
 }
 #project-list .project-card:hover {
@@ -187,7 +200,7 @@
 }
 #project-list .left img {
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   width: 260px;
   height: 100%;
 }
@@ -207,4 +220,4 @@
 #project-list .right {
   width: 100%;
   position: relative;
-}/*# sourceMappingURL=home.css.map */
+} /*# sourceMappingURL=home.css.map */
