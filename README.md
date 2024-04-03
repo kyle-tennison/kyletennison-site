@@ -1,4 +1,3 @@
-
 # [kyletennison.com](https://kyletennison.com)
 
 ![A screenshot of the website](screenshot.png)
