@@ -20,9 +20,9 @@ export default function Home(){
         <h2>Engineering Student and Software Developer</h2>
         <div id="social-icons">
 
-            <img src={twitter_icon}></img>
-            <img src={github_icon}></img>
-            <img src={linkedin_icon}></img>
+            <img className="icon" src={twitter_icon}></img> 
+            <img className="icon" src={github_icon} onClick={()=> window.open("https://github.com/kyle-tennison", "_blank")}></img>
+            <img className="icon" src={linkedin_icon} onClick={()=> window.open("https://www.linkedin.com/in/kyle-tennison-1704631b0/", "_blank")}></img>
 
         </div>
         <p>kyletennison05@gmail.com</p>
