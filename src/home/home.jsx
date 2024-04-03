@@ -140,7 +140,7 @@ export default function Home() {
             text="Climber Subsystem for the FRC 2023 Competition."
             icon={boxes_icon}
             icon_text="Check out the Model"
-            link="https://cad.onshape.com/documents/f24fe5dbb9a6ebea2bf3693f"
+            link="https://cad.onshape.com/documents/f24fe5dbb9a6ebea2bf3693f/w/32dcdf3aae6546aabd9e5cf0/e/dd5e99181b503ee08b3ac657"
             date="January-March 2023"
           />
         </div>
