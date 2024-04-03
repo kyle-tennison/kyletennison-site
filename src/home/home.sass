@@ -1,32 +1,189 @@
-
 #home-page
-    background-color: #76885B
+    background-color: #EEEDEB
 
 .banner
-
     padding-top: 110px
     padding-bottom: 60px
-
     text-align: center
     background-repeat: no-repeat
     background-size: cover
-
-    
-
+    background-attachment: fixed
     color: white
-
     h1
         font-weight: bold
         font-size: 96px
-
     h2
         font-size: 32px
-
     #social-icons
         display: inline
         filter: invert(1)
-
         img
             margin: 25px
             width: 32px
             height: 32px
+
+#about-me
+    position: relative
+    top: -30px
+    color: white
+    padding-top: 60px
+    padding-bottom: 90px
+    border-top-left-radius: 30px
+    border-top-right-radius: 30px
+    background-color: #76885B
+    h1
+        text-align: center
+        margin-bottom: 30px
+    .flex-container
+        padding-left: 10%
+        padding-right: 10%
+    .left
+        display: flexbox
+        flex-direction: row 
+        margin-right: 60px
+        img
+            position: relative
+            // top: -20px
+            width: 200px
+            border-radius: 10px
+            text-align: center
+            box-shadow: 2px 5px 5px 1px #00000033
+    @media screen and (max-width: 900px) 
+        #selfie
+            display: none
+    .right
+        display: inline-block
+        font-size: 18px
+        line-height: 29px
+
+        .flex-container
+            padding-left: 20px
+            padding-right: 0px
+            justify-content: center
+
+    .info-card
+        margin-top: 30px
+        width:100%
+        display: flexbox
+        padding: 0
+
+    .icon-text-pair
+        display: flex
+        img
+            
+            display: flexbox 
+        a
+            display: flexbox
+            margin-left: 20px
+            color: white
+            line-height: 30px
+        margin-top: 25px
+
+
+        .icon
+            width: 25px
+            height: 25px
+            overflow: visible
+            box-shadow: none
+            filter: invert(1)
+
+#project-list
+    position: relative
+    top: -60px
+    border-top-left-radius: 30px
+    border-top-right-radius: 30px
+    background-color: #EEEDEB
+    color: #363636
+    padding-top: 60px
+    padding-bottom: 60px
+    h1
+        text-align: center
+        padding-bottom: 15px
+    a
+        display: block
+        font-size: 18px
+    padding-left: 60px
+    padding-right: 60px
+
+    
+    .cards-container
+        width: fit-content
+        margin: auto
+        flex-direction: column
+
+    .project-card
+        height: 200px
+        display: flex 
+        margin-top: 50px
+        overflow: hidden
+        border-radius: 15px
+        background-color: #E0CCBE
+        box-shadow: 2px 5px 5px 1px #00000033
+
+        h2
+            margin-left: 50px
+            margin-top: 25px
+            font-size: 27px
+        a 
+            margin-top: 10px
+            display: block
+            overflow: hidden
+            margin-left: 50px
+            margin-right: 50px
+
+        .flex-container
+            width: 100%
+
+        .right
+            width: 100%
+            display: block
+            position: relative
+
+        .icon-text-pair
+            position: absolute
+            margin-left: 40px
+            bottom: 20px
+            img
+                width: 30px
+                display: flexbox
+                margin-right: 15px 
+                opacity: 70%
+            a
+                display: inline-block
+                padding: 0
+                margin: 0
+                line-height: 30px
+            margin-top: 25px
+
+        #date
+            position: absolute
+            right: 0px
+            bottom: 30px
+            font-style: italic
+
+    .project-card:hover
+        transform: scale(1.01) 
+
+    .left
+        display: felxbox 
+        img
+            object-fit: cover
+            width: 260px
+            height: 100%
+
+    @media screen and (max-width: 880px) 
+        .left
+            img
+                idth: 160px
+    @media screen and (max-width: 790px) 
+        .left
+            img
+                display: none
+        .right
+            #date
+                display: none
+
+
+    .right
+        width: 100%
+        position: relative
