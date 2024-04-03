@@ -1,5 +1,6 @@
 #home-page
     background-color: #EEEDEB
+    min-width: 380px
 
 .banner
     padding-top: 110px
@@ -48,20 +49,26 @@
             border-radius: 10px
             text-align: center
             box-shadow: 2px 5px 5px 1px #00000033
-    @media screen and (max-width: 900px) 
-        #selfie
-            display: none
     .right
         display: inline-block
         font-size: 18px
         line-height: 29px
 
         .flex-container
+            margin: auto
             padding-left: 20px
             padding-right: 0px
             justify-content: center
 
+    @media screen and (max-width: 900px) 
+        #selfie
+            display: none
+        .right
+            .flex-container
+                padding-left: 0px
+
     .info-card
+        position: relative
         margin-top: 30px
         width:100%
         display: flexbox
@@ -70,7 +77,6 @@
     .icon-text-pair
         display: flex
         img
-            
             display: flexbox 
         a
             display: flexbox
@@ -112,7 +118,7 @@
         flex-direction: column
 
     .project-card
-        height: 200px
+        min-height: 200px
         display: flex 
         margin-top: 50px
         overflow: hidden
@@ -130,6 +136,7 @@
             overflow: hidden
             margin-left: 50px
             margin-right: 50px
+            margin-bottom: 80px
 
         .flex-container
             width: 100%
@@ -138,6 +145,8 @@
             width: 100%
             display: block
             position: relative
+
+
 
         .icon-text-pair
             position: absolute
@@ -155,10 +164,15 @@
                 line-height: 30px
             margin-top: 25px
 
+        @media screen and (max-width: 420px)
+            .icon-text-pair
+                margin-left: 20px
+
         #date
             position: absolute
             right: 0px
             bottom: 30px
+            margin-bottom: 0px
             font-style: italic
 
     .project-card:hover
