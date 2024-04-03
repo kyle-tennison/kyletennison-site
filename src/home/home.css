@@ -1,0 +1,210 @@
+#home-page {
+  background-color: #EEEDEB;
+}
+
+.banner {
+  padding-top: 110px;
+  padding-bottom: 60px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+}
+.banner h1 {
+  font-weight: bold;
+  font-size: 96px;
+}
+.banner h2 {
+  font-size: 32px;
+}
+.banner #social-icons {
+  display: inline;
+  filter: invert(1);
+}
+.banner #social-icons img {
+  margin: 25px;
+  width: 32px;
+  height: 32px;
+}
+
+#about-me {
+  position: relative;
+  top: -30px;
+  color: white;
+  padding-top: 60px;
+  padding-bottom: 90px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  background-color: #76885B;
+}
+#about-me h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+#about-me .flex-container {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+#about-me .left {
+  display: flexbox;
+  flex-direction: row;
+  margin-right: 60px;
+}
+#about-me .left img {
+  position: relative;
+  width: 200px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 2px 5px 5px 1px rgba(0, 0, 0, 0.2);
+}
+@media screen and (max-width: 900px) {
+  #about-me #selfie {
+    display: none;
+  }
+}
+#about-me .right {
+  display: inline-block;
+  font-size: 18px;
+  line-height: 29px;
+}
+#about-me .right .flex-container {
+  padding-left: 20px;
+  padding-right: 0px;
+  justify-content: center;
+}
+#about-me .info-card {
+  margin-top: 30px;
+  width: 100%;
+  display: flexbox;
+  padding: 0;
+}
+#about-me .icon-text-pair {
+  display: flex;
+  margin-top: 25px;
+}
+#about-me .icon-text-pair img {
+  display: flexbox;
+}
+#about-me .icon-text-pair a {
+  display: flexbox;
+  margin-left: 20px;
+  color: white;
+  line-height: 30px;
+}
+#about-me .icon-text-pair .icon {
+  width: 25px;
+  height: 25px;
+  overflow: visible;
+  box-shadow: none;
+  filter: invert(1);
+}
+
+#project-list {
+  position: relative;
+  top: -60px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  background-color: #EEEDEB;
+  color: #363636;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+#project-list h1 {
+  text-align: center;
+  padding-bottom: 15px;
+}
+#project-list a {
+  display: block;
+  font-size: 18px;
+}
+#project-list .cards-container {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+  flex-direction: column;
+}
+#project-list .project-card {
+  height: 200px;
+  display: flex;
+  margin-top: 50px;
+  overflow: hidden;
+  border-radius: 15px;
+  background-color: #E0CCBE;
+  box-shadow: 2px 5px 5px 1px rgba(0, 0, 0, 0.2);
+}
+#project-list .project-card h2 {
+  margin-left: 50px;
+  margin-top: 25px;
+  font-size: 27px;
+}
+#project-list .project-card a {
+  margin-top: 10px;
+  display: block;
+  overflow: hidden;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+#project-list .project-card .flex-container {
+  width: 100%;
+}
+#project-list .project-card .right {
+  width: 100%;
+  display: block;
+  position: relative;
+}
+#project-list .project-card .icon-text-pair {
+  position: absolute;
+  margin-left: 40px;
+  bottom: 20px;
+  margin-top: 25px;
+}
+#project-list .project-card .icon-text-pair img {
+  width: 30px;
+  display: flexbox;
+  margin-right: 15px;
+  opacity: 70%;
+}
+#project-list .project-card .icon-text-pair a {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  line-height: 30px;
+}
+#project-list .project-card #date {
+  position: absolute;
+  right: 0px;
+  bottom: 30px;
+  font-style: italic;
+}
+#project-list .project-card:hover {
+  transform: scale(1.01);
+}
+#project-list .left {
+  display: felxbox;
+}
+#project-list .left img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 260px;
+  height: 100%;
+}
+@media screen and (max-width: 880px) {
+  #project-list .left img {
+    idth: 160px;
+  }
+}
+@media screen and (max-width: 790px) {
+  #project-list .left img {
+    display: none;
+  }
+  #project-list .right #date {
+    display: none;
+  }
+}
+#project-list .right {
+  width: 100%;
+  position: relative;
+}/*# sourceMappingURL=home.css.map */
