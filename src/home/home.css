@@ -1,5 +1,5 @@
 #home-page {
-  background-color: #eeedeb;
+  background-color: #EEEDEB;
   min-width: 380px;
 }
 
@@ -37,7 +37,7 @@
   padding-bottom: 90px;
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
-  background-color: #76885b;
+  background-color: #76885B;
 }
 #about-me h1 {
   text-align: center;
@@ -111,7 +111,7 @@
   top: -60px;
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
-  background-color: #eeedeb;
+  background-color: #EEEDEB;
   color: #363636;
   padding-top: 60px;
   padding-bottom: 60px;
@@ -138,7 +138,7 @@
   margin-top: 50px;
   overflow: hidden;
   border-radius: 15px;
-  background-color: #e0ccbe;
+  background-color: #E0CCBE;
   box-shadow: 2px 5px 5px 1px rgba(0, 0, 0, 0.2);
 }
 #project-list .project-card h2 {
@@ -184,6 +184,9 @@
   #project-list .project-card .icon-text-pair {
     margin-left: 20px;
   }
+  #project-list .project-card h2 {
+    margin-left: 25px;
+  }
 }
 #project-list .project-card #date {
   position: absolute;
@@ -200,7 +203,7 @@
 }
 #project-list .left img {
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   width: 260px;
   height: 100%;
 }
@@ -220,4 +223,4 @@
 #project-list .right {
   width: 100%;
   position: relative;
-} /*# sourceMappingURL=home.css.map */
+}/*# sourceMappingURL=home.css.map */
