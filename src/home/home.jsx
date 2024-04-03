@@ -10,8 +10,12 @@ import cake_icon from "../assets/icons/cake2.svg"
 import mortarboard_icon from "../assets/icons/mortarboard.svg"
 import book_icon from "../assets/icons/book.svg"
 import location_icon from "../assets/icons/geo-alt.svg"
+import boxes_icon from "../assets/icons/boxes.svg"
 
 import magnetite_img from "../assets/project-pictures/magnetite.png"
+import pyrite_img from "../assets/project-pictures/pyrite.png"
+import climber_img from "../assets/project-pictures/climber.jpg"
+import franklin_img from "../assets/project-pictures/franklin.png"
 
 export default function Home(){
 
@@ -84,16 +88,34 @@ export default function Home(){
             icon={github_icon}
             icon_text="Check it out on GitHub"
             link="https://github.com/kyle-tennison/Magnetite"
+            date="March-April 2024"
+            />
+            <ProjectCard 
+            img={pyrite_img} 
+            title="Pyrite FEA"
+            text="Another 2D FEA Simulator built Natively in Python."
+            icon={github_icon}
+            icon_text="Check it out on GitHub"
+            link="https://github.com/kyle-tennison/Pyrite"
             date="March 2024"
             />
             <ProjectCard 
-            img={magnetite_img} 
-            title="Magnetite FEA"
-            text="A 2D Finite-Element Method Mechanical Simulator, built in Rust."
+            img={franklin_img} 
+            title="Franklin"
+            text="A self-balancing robot friend. Work in progress."
             icon={github_icon}
             icon_text="Check it out on GitHub"
-            link="https://github.com/kyle-tennison/Magnetite"
-            date="March 2024"
+            link="https://github.com/kyle-tennison/franklin"
+            date="December-Now 2023"
+            />
+            <ProjectCard 
+            img={climber_img} 
+            title="5940 BREAD 2023 Climber"
+            text="Climber Subsystem for the FRC 2023 Competition."
+            icon={boxes_icon}
+            icon_text="Check out the Model"
+            link="https://cad.onshape.com/documents/f24fe5dbb9a6ebea2bf3693f"
+            date="January-March 2023"
             />
         </div>
 
