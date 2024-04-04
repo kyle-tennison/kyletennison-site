@@ -26,7 +26,7 @@ export default function Home() {
         style={{ backgroundImage: `url(${background_image})` }}
       >
         <h1>Kyle Tennison</h1>
-        <h2>Engineering Student and Software Developer</h2>
+        <h2>ME Student and Independent SWE</h2>
         <div id="social-icons">
           <img className="icon clickable" src={twitter_icon}></img>
           <img
@@ -58,7 +58,7 @@ export default function Home() {
           </div>
           <div className="right">
             <a>
-              Hi! I&apos;m Kyle — an engineering student from California.
+              Hi! I&apos;m Kyle — a mechanical engineering student from California.
               I&apos;m majoring in Mechanical Engineering, but I spend a lot of
               my energy with software engineering; I&apos;m trying to get well
               rounded in both subjects. This page is dedicated to showcasing
