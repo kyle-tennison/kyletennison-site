@@ -28,7 +28,6 @@ export default function Home() {
         <h1>Kyle Tennison</h1>
         <h2>Engineering Student and Software Developer</h2>
         <div id="social-icons">
-          ``
           <img className="icon clickable" src={twitter_icon}></img>
           <img
             className="icon clickable"
