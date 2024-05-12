@@ -17,6 +17,7 @@ import pyrite_img from "../assets/project-pictures/pyrite.png";
 import climber_img from "../assets/project-pictures/climber.jpg";
 import franklin_img from "../assets/project-pictures/franklin.png";
 import parsley_img from "../assets/project-pictures/parsley.png"
+import onpy_img from "../assets/project-pictures/onpy.png"
 
 export default function Home() {
   return (
@@ -115,6 +116,15 @@ export default function Home() {
             icon_text="Check it out on GitHub"
             link="https://github.com/kyle-tennison/Magnetite"
             date="March-April 2024"
+          />
+          <ProjectCard
+            img={onpy_img}
+            title="OnPy"
+            text="A Python API for building 3D models with OnShape"
+            icon={github_icon}
+            icon_text="Check it out on GitHub"
+            link="https://github.com/kyle-tennison/onpy"
+            date="May 2024"
           />
           <ProjectCard
             img={pyrite_img}
