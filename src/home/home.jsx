@@ -61,7 +61,7 @@ export default function Home() {
             <a>
               Hi! I&apos;m Kyle — a mechanical engineering student from California.
               I&apos;m majoring in Mechanical Engineering, but I spend a lot of
-              my energy with software engineering; I&apos;m trying to get well
+              my time with software engineering; I&apos;m trying to get well
               rounded in both subjects. This page is dedicated to showcasing
               some of the projects I&apos;ve been working on. I&apos;m a
               hands-on person, so this is my way of learning.
