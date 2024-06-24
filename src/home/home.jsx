@@ -72,9 +72,9 @@ export default function Home() {
                   <img className="icon" src={mortarboard_icon} />
                   <a
                     style={{ textTransform: "underline" }}
-                    href="https://canadacollege.edu"
+                    href="https://gatech.edu/"
                   >
-                    Cañada College
+                    Georgia Tech
                   </a>
                 </div>
                 <div className="icon-text-pair">
