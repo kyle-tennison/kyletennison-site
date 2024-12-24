@@ -11,6 +11,7 @@ import mortarboard_icon from "../assets/icons/mortarboard.svg";
 import book_icon from "../assets/icons/book.svg";
 import location_icon from "../assets/icons/geo-alt.svg";
 import boxes_icon from "../assets/icons/boxes.svg";
+import link_icon from "../assets/icons/link.svg";
 
 import magnetite_img from "../assets/project-pictures/magnetite.png";
 import pyrite_img from "../assets/project-pictures/pyrite.png";
@@ -18,6 +19,7 @@ import climber_img from "../assets/project-pictures/climber.jpg";
 import franklin_img from "../assets/project-pictures/franklin.png";
 import parsley_img from "../assets/project-pictures/parsley.png"
 import onpy_img from "../assets/project-pictures/onpy.png"
+import polybrain_img from "../assets/project-pictures/polybrain.png"
 
 export default function Home() {
   return (
@@ -108,6 +110,15 @@ export default function Home() {
         </a>
 
         <div className="flex-container cards-container">
+          <ProjectCard
+            img={polybrain_img}
+            title="Polybrain"
+            text="AI powered CAD generation."
+            icon={link_icon}
+            icon_text="Visit website"
+            link="https://polybrain.xyz/"
+            date="May-October 2024"
+          />
           <ProjectCard
             img={magnetite_img}
             title="Magnetite FEA"
